@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بزرگترین تولید کننده نوشمک هلیس</title>
+    
+    <!-- فونت‌ها و آیکون‌ها -->
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- لینک CSS کتابخانه Swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- لینک به فایل استایل شما -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- هدر سایت -->
+    <header class="hero-section">
+        <h1>بزرگترین تولید کننده نوشمک هلیس</h1>
+        <p>هلیس در طعم ها وسایز های مختلف با بهترین کیفیت ، مختص شما که بهترین هستین کیفیت اتفاقی نیست</p>
+    </header>
+
+    <main>
+        <!-- بخش محصولات -->
+        <section id="products" class="products-section">
+            <div class="container">
+                <h2>محصولات ما</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200.png?text=آبمیوه+پرتقال" alt="آبمیوه پرتقال">
+                        <h3>آبمیوه طبیعی پرتقال</h3>
+                        <p>تهیه شده از بهترین پرتقال‌های شمال.</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200.png?text=نوشیدنی+آلوئه‌ورا" alt="نوشیدنی آلوئه‌ورا">
+                        <h3>نوشیدنی گوارای آلوئه‌ورا</h3>
+                        <p>یک نوشیدنی سالم و مفید برای تمام فصول.</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200.png?text=لیموناد+گازدار" alt="لیموناد گازدار">
+                        <h3>لیموناد گازدار طبیعی</h3>
+                        <p>ترکیبی هیجان‌انگیز از لیموی تازه.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- بخش نظرات مشتریان -->
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2>نظر مشتریان ما</h2>
+                <div class="swiper testimonials-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <p class="quote">"کیفیت محصولاتتون واقعا عالیه! مخصوصا آبمیوه پرتقال که طعمش کاملا طبیعیه."</p>
+                                <p class="author">- سارا محمدی</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <p class="quote">"بسته‌بندی زیبا و طعم فوق‌العاده. نوشیدنی آلوئه‌ورا بهترین محصولی بود که امتحان کردم."</p>
+                                <p class="author">- علی رضایی</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <p class="quote">"لیموناد گازدار شما بهترین نوشیدنی برای مهمانی‌هاست! همه عاشقش شدن."</p>
+                                <p class="author">- مریم احمدی</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- فوتر سایت -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h4>اطلاعات تماس</h4>
+                    <p><i class="fas fa-phone"></i> 09362138962</p>
+                    <p><i class="fas fa-envelope"></i> helisfoodco@gmail.com</p>
+                </div>
+                <div class="address-info">
+                    <h4>آدرس</h4>
+                    <p><i class="fas fa-location-dot"></i> استان البرز، کرج، شهرک صنعتی نظرآباد</p>
+                </div>
+                <div class="social-media">
+                    <h4>ما را دنبال کنید</h4>
+                    <a href="https://www.instagram.com/helis_co?igsh=czR3cnAxZWt3OXZ1"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.wa.me/989362138962"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy;  تمامی حقوق برای صنایع غذایی هلیس محفوظ است.<div class=""></div><div class=""></div></p>
+                <p>&copy;  producted by Mahdi Shahbazi<div class=""></div><div class=""></div></p>
+            </div>
+        </div>
+        <!-- **جدید:** بخش نمایش ساعت و تاریخ زنده -->
+            <div id="live-time-container">
+                <i class="fas fa-clock"></i>
+                <span id="live-date"></span> | <span id="live-time"></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- **مهم:** لینک JS کتابخانه jalaali-js برای تبدیل تاریخ -->
+    <script src="https://cdn.jsdelivr.net/npm/jalaali-js/dist/jalaali.js"></script>
+
+    <!-- لینک JS کتابخانه Swiper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- لینک به فایل اسکریپت شما -->
+    <script src="script.js"></script>
+
+</body>
+
+    </footer>
+
+    <!-- لینک JS کتابخانه Swiper.js (باید قبل از فایل اسکریپت شما باشد) -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- لینک به فایل اسکریپت شما -->
+    <script src="script.js"></script>
+
+</body>
+</html>
